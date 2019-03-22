@@ -120,6 +120,13 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
     }
 
     /**
+     * Method used to retrieve list of tasks entry objects from adapter
+     */
+    public List<TaskEntry> getTasks(){
+        return mTaskEntries;
+    }
+
+    /**
      * When data changes, this method updates the list of taskEntries
      * and notifies the adapter to use the new values on it
      */

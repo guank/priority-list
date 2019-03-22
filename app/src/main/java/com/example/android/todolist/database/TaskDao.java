@@ -23,4 +23,5 @@ public interface TaskDao {
 
     @Delete
     void deleteTask(TaskEntry taskEntry);
+
 }
